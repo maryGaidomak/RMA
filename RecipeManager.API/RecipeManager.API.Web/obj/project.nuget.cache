@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Nj9NMskAQn/B/8puLy92vig0hIz3SB8SzgZ/xTJYTQ34aoosP+AZP7o7Ek+FPDmiWvfhzQb0zJf1Q97wGjBmKw==",
+  "dgSpecHash": "apqwES0FpgL28GswBO3NeitEu6tcmD+zwRN3PgY7If+bMSBOs16QlE5QjPfiPm17lZsHM0sFLIWxWv9vD6gBjg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\RecipeManager.API.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ROKO000000101\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ROKO000000101\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\ROKO000000101\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ROKO000000101\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\ROKO000000101\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using RecipeManager.API.BL.Interfaces;
 
 namespace RecipeManager.API.Web.Controllers
 {
@@ -12,10 +13,12 @@ namespace RecipeManager.API.Web.Controllers
 		};
 
 		private readonly ILogger<WeatherForecastController> _logger;
+		private readonly IBaseService _baseService;
 
-		public WeatherForecastController(ILogger<WeatherForecastController> logger)
+		public WeatherForecastController(ILogger<WeatherForecastController> logger, IBaseService baseService)
 		{
 			_logger = logger;
+			_baseService = baseService;
 		}
 
 		[HttpGet(Name = "GetWeatherForecast")]
@@ -28,6 +31,13 @@ namespace RecipeManager.API.Web.Controllers
 				Summary = Summaries[Random.Shared.Next(Summaries.Length)]
 			})
 			.ToArray();
+		}
+
+		[HttpGet]
+		[Route("IsAlive")]
+		public async Task<bool> CheckIsAlive()
+		{
+			return await _baseService.IsAlive();
 		}
 	}
 }

@@ -13,4 +13,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RecipeManager.API.BL\RecipeManager.API.BL.csproj" />
+    <ProjectReference Include="..\RecipeManager.API.DataAccess\RecipeManager.API.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

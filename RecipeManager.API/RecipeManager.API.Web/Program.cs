@@ -1,8 +1,14 @@
+using RecipeManager.API.BL;
+using RecipeManager.API.DataAccess;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+DIConfiguration.Configure(builder.Services);
+DbConfiguration.Configure(builder.Services);
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
