@@ -1,5 +1,0 @@
-CREATE DATABASE recipebook;
-
-CREATE USER rootuser WITH ENCRYPTED PASSWORD 'welcome911';
-
-GRANT ALL PRIVILEGES ON DATABASE recipebook TO rootuser;
