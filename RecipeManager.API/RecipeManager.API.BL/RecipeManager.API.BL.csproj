@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RecipeManager.Data\RecipeManager.API.Data.csproj" />
+    <ProjectReference Include="..\RecipeManager.API.DataAccess\RecipeManager.API.DataAccess.csproj" />
+  </ItemGroup>
+
+
 </Project>

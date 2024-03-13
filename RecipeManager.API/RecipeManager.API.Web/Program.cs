@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 DIConfiguration.Configure(builder.Services);
-DbConfiguration.Configure(builder.Services);
+DbConfiguration.Configure(builder.Services, builder.Configuration);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

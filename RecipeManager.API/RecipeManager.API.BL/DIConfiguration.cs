@@ -8,6 +8,7 @@ namespace RecipeManager.API.BL
 		public static IServiceCollection Configure(IServiceCollection services)
 		{
 			services.AddScoped<IBaseService, BaseService>();
+			services.AddScoped<IUserService, UserService>();
 			return services;
 		}
 	}

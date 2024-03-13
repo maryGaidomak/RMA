@@ -7,9 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeManager.API.Web", "Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeManager.API.Data", "RecipeManager.Data\RecipeManager.API.Data.csproj", "{D8C81DB1-750E-4C92-ABDF-DD3547CD7AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManager.API.BL", "RecipeManager.API.BL\RecipeManager.API.BL.csproj", "{312F52C5-9D9E-4AAA-850A-401EBDA89392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeManager.API.BL", "RecipeManager.API.BL\RecipeManager.API.BL.csproj", "{312F52C5-9D9E-4AAA-850A-401EBDA89392}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29611BDC-8802-413E-AAE1-04AEEF210E83} = {29611BDC-8802-413E-AAE1-04AEEF210E83}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManager.API.DataAccess", "RecipeManager.API.DataAccess\RecipeManager.API.DataAccess.csproj", "{29611BDC-8802-413E-AAE1-04AEEF210E83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeManager.API.DataAccess", "RecipeManager.API.DataAccess\RecipeManager.API.DataAccess.csproj", "{29611BDC-8802-413E-AAE1-04AEEF210E83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
