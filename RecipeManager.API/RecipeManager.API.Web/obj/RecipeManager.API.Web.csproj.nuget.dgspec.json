@@ -1,0 +1,307 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\RecipeManager.API.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\RecipeManager.API.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\RecipeManager.API.BL.csproj",
+        "projectName": "RecipeManager.API.BL",
+        "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\RecipeManager.API.BL.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000101\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj"
+              },
+              "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\RecipeManager.API.Data.csproj": {
+                "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\RecipeManager.API.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj",
+        "projectName": "RecipeManager.API.DataAccess",
+        "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000101\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\RecipeManager.API.Data.csproj": {
+                "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\RecipeManager.API.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\RecipeManager.API.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\RecipeManager.API.Web.csproj",
+        "projectName": "RecipeManager.API.Web",
+        "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\RecipeManager.API.Web.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000101\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\RecipeManager.API.BL.csproj": {
+                "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\RecipeManager.API.BL.csproj"
+              },
+              "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\RecipeManager.API.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\RecipeManager.API.Data.csproj",
+        "projectName": "RecipeManager.API.Data",
+        "projectPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\RecipeManager.API.Data.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000101\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
