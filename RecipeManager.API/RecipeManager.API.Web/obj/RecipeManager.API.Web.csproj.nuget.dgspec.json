@@ -140,6 +140,10 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -226,6 +230,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.24.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,6 +1,6 @@
 ﻿using RecipeManager.API.BL.Interfaces;
 using RecipeManager.API.Data;
-using RecipeManager.API.DataAccess.Interfaces;
+using RecipeManager.API.DataAccess.Contracts;
 using DAccess = RecipeManager.API.DataAccess;
 
 namespace RecipeManager.API.BL;

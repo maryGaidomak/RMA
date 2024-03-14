@@ -1,4 +1,4 @@
-﻿namespace RecipeManager.API.DataAccess.Interfaces;
+﻿namespace RecipeManager.API.DataAccess.Contracts;
 
 public interface IBaseRepository
 {

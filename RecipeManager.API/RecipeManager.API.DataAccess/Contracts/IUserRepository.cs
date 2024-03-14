@@ -1,6 +1,6 @@
 ﻿using RecipeManager.API.DataAccess.DataClasses;
 
-namespace RecipeManager.API.DataAccess.Interfaces
+namespace RecipeManager.API.DataAccess.Contracts
 {
 	public interface IUserRepository
 	{

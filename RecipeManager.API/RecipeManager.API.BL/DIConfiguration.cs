@@ -9,6 +9,7 @@ namespace RecipeManager.API.BL
 		{
 			services.AddScoped<IBaseService, BaseService>();
 			services.AddScoped<IUserService, UserService>();
+			services.AddScoped<IIngredientService, IngredientService>();
 			return services;
 		}
 	}
