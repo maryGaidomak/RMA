@@ -27,5 +27,9 @@ public class RecipeBookContext: DbContext
 		modelBuilder.Entity<User>()
 			.Property(e => e.UpdatedAt)
 			.HasConversion(v => v, v => DateTime.SpecifyKind(v, DateTimeKind.Utc));
+
+		modelBuilder.Entity<User>()
+		  .HasIndex(u => u.Email)
+		  .IsUnique();
 	}
 }

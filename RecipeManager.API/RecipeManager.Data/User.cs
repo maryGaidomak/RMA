@@ -1,9 +1,12 @@
-﻿namespace RecipeManager.API.Data;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RecipeManager.API.Data;
 
 public class User
 {
 	public Guid Id { get; set; }
 	public required string Username { get; set; }
+	[EmailAddress]
 	public required string Email { get; set; }
 	public required string FirstName { get; set; }
 	public string? LastName { get; set; }

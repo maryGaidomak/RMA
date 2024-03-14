@@ -5,7 +5,7 @@ namespace RecipeManager.API.DataAccess;
 
 public class BaseRepository : IBaseRepository
 {
-	private readonly RecipeBookContext _dbContext;
+	protected readonly RecipeBookContext _dbContext;
 	public BaseRepository(RecipeBookContext context)
 	{
 		_dbContext = context;

@@ -20,4 +20,6 @@ public class User
 	public DateTime CreatedAt { get; set; }
 	[Column("updatedat")]
 	public DateTime UpdatedAt { get; set; }
+	[Column("isdeleted")]
+	public bool IsDeleted { get; set; }
 }
