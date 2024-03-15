@@ -1,22 +1,23 @@
 ﻿using RecipeManager.API.BL.Interfaces;
 using RecipeManager.API.Data;
+using DAccess = RecipeManager.API.DataAccess.DataClasses;
 using RecipeManager.API.DataAccess.Contracts;
 
 namespace RecipeManager.API.BL;
 
 public class IngredientService : IIngredientService
 {
-	private readonly IIngredientsRepository _ingredientsRepository;
-	public IngredientService(IIngredientsRepository ingredientsRepository)
+	private readonly IMongoRepository<DAccess.Ingredient> _repository;
+	public IngredientService(IMongoRepository<DAccess.Ingredient> repository)
 	{
-		_ingredientsRepository = ingredientsRepository;
+		_repository = repository;
 	}
 
 	public async Task CreateAsync(Ingredient ingredient)
 	{
-		await _ingredientsRepository.CreateIngredient(new DataAccess.DataClasses.Ingredient()
-		{ 
-			FullName = ingredient.FullName, 
+		await _repository.CreateAsync(new DAccess.Ingredient()
+		{
+			FullName = ingredient.FullName,
 			ShortName = ingredient.ShortName,
 			Description = ingredient.Description,
 		});
@@ -29,7 +30,7 @@ public class IngredientService : IIngredientService
 
 	public async Task<IEnumerable<Ingredient>> GetAll()
 	{
-		var dbResults = await _ingredientsRepository.GetAllIngredients();
+		var dbResults = await _repository.GetAllAsync(null, 10);
 		var results = dbResults.Select(i => new Ingredient()
 		{
 			Id = i.Id,

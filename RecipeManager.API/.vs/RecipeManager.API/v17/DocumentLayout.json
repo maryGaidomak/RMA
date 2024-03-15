@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.bl\\interfaces\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|solutionrelative:recipemanager.api.bl\\interfaces\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\dbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\dbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3AD25A-55FE-433C-A2F4-967C61018943}|RecipeManager.API.Web\\RecipeManager.API.Web.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3AD25A-55FE-433C-A2F4-967C61018943}|RecipeManager.API.Web\\RecipeManager.API.Web.csproj|solutionrelative:recipemanager.api.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.bl\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|solutionrelative:recipemanager.api.bl\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\contracts\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\contracts\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\contracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\contracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.bl\\interfaces\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|solutionrelative:recipemanager.api.bl\\interfaces\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B3AD25A-55FE-433C-A2F4-967C61018943}|RecipeManager.API.Web\\RecipeManager.API.Web.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.web\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{D8C81DB1-750E-4C92-ABDF-DD3547CD7AD2}|RecipeManager.Data\\RecipeManager.API.Data.csproj|solutionrelative:recipemanager.data\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\ingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\ingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\contracts\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\contracts\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.bl\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{312F52C5-9D9E-4AAA-850A-401EBDA89392}|RecipeManager.API.BL\\RecipeManager.API.BL.csproj|solutionrelative:recipemanager.api.bl\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B3AD25A-55FE-433C-A2F4-967C61018943}|RecipeManager.API.Web\\RecipeManager.API.Web.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.web\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,14 +91,6 @@
       "RelativeMoniker": "D:0:0:{1B3AD25A-55FE-433C-A2F4-967C61018943}|RecipeManager.API.Web\\RecipeManager.API.Web.csproj|solutionrelative:recipemanager.api.web\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.dataaccess\\contracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29611BDC-8802-413E-AAE1-04AEEF210E83}|RecipeManager.API.DataAccess\\RecipeManager.API.DataAccess.csproj|solutionrelative:recipemanager.api.dataaccess\\contracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3AD25A-55FE-433C-A2F4-967C61018943}|RecipeManager.API.Web\\RecipeManager.API.Web.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.api.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3AD25A-55FE-433C-A2F4-967C61018943}|RecipeManager.API.Web\\RecipeManager.API.Web.csproj|solutionrelative:recipemanager.api.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8C81DB1-750E-4C92-ABDF-DD3547CD7AD2}|RecipeManager.Data\\RecipeManager.API.Data.csproj|d:\\projects\\pet-projects\\recipe-app-backend\\recipemanager.api\\recipemanager.data\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8C81DB1-750E-4C92-ABDF-DD3547CD7AD2}|RecipeManager.Data\\RecipeManager.API.Data.csproj|solutionrelative:recipemanager.data\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 116,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,46 +146,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IngredientsRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\IngredientsRepository.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\IngredientsRepository.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\IngredientsRepository.cs",
-              "RelativeToolTip": "RecipeManager.API.DataAccess\\IngredientsRepository.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAYwCAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:25:41.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.Web\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "RecipeManager.API.Web\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T13:53:43.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IngredientsController.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
-              "RelativeToolTip": "RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwB4AAAAbAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Program.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.Web\\Program.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Program.cs",
+              "RelativeToolTip": "RecipeManager.API.Web\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAMwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:23:47.549Z",
+              "WhenOpened": "2024-03-12T16:42:02.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "DbConfiguration.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\DbConfiguration.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\DbConfiguration.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\DbConfiguration.cs",
+              "RelativeToolTip": "RecipeManager.API.DataAccess\\DbConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T22:37:12.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
+              "RelativeToolTip": "RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:17:08.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IngredientService.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\IngredientService.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.BL\\IngredientService.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\IngredientService.cs",
+              "RelativeToolTip": "RecipeManager.API.BL\\IngredientService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwC4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:30:43.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MongoRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\MongoRepository.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\MongoRepository.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\MongoRepository.cs",
+              "RelativeToolTip": "RecipeManager.API.DataAccess\\MongoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T22:32:55.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMongoRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IMongoRepository.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contracts\\IMongoRepository.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IMongoRepository.cs",
+              "RelativeToolTip": "RecipeManager.API.DataAccess\\Contracts\\IMongoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T17:43:42.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DIConfiguration.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\DIConfiguration.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.BL\\DIConfiguration.cs",
@@ -189,12 +232,35 @@
               "RelativeToolTip": "RecipeManager.API.BL\\DIConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:48:21.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T16:48:21.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
+              "RelativeToolTip": "RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:49:47.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IngredientsController.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
+              "RelativeToolTip": "RecipeManager.API.Web\\Controllers\\IngredientsController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwB4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:23:47.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IIngredientService.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\Interfaces\\IIngredientService.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.BL\\Interfaces\\IIngredientService.cs",
@@ -202,25 +268,11 @@
               "RelativeToolTip": "RecipeManager.API.BL\\Interfaces\\IIngredientService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:30:09.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T15:30:09.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IngredientService.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\IngredientService.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.BL\\IngredientService.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\IngredientService.cs",
-              "RelativeToolTip": "RecipeManager.API.BL\\IngredientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:30:43.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Recipe.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\Recipe.cs",
               "RelativeDocumentMoniker": "RecipeManager.Data\\Recipe.cs",
@@ -228,25 +280,11 @@
               "RelativeToolTip": "RecipeManager.Data\\Recipe.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T16:19:18.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T16:19:18.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IIngredientsRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IIngredientsRepository.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contracts\\IIngredientsRepository.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IIngredientsRepository.cs",
-              "RelativeToolTip": "RecipeManager.API.DataAccess\\Contracts\\IIngredientsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:24:51.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Recipe.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\DataClasses\\Recipe.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\DataClasses\\Recipe.cs",
@@ -254,25 +292,23 @@
               "RelativeToolTip": "RecipeManager.API.DataAccess\\DataClasses\\Recipe.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:17:56.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MongoDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
-              "RelativeToolTip": "RecipeManager.API.DataAccess\\Contexts\\MongoDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:17:08.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T15:17:56.364Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "RecipeManager.API.Web\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "RecipeManager.API.Web\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T13:53:43.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\UserRepository.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\UserRepository.cs",
@@ -280,12 +316,11 @@
               "RelativeToolTip": "RecipeManager.API.DataAccess\\UserRepository.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAIAwwDAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T19:50:36.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T19:50:36.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\DataClasses\\User.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\DataClasses\\User.cs",
@@ -293,12 +328,11 @@
               "RelativeToolTip": "RecipeManager.API.DataAccess\\DataClasses\\User.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAA1wBQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:02:31.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:02:31.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\User.cs",
               "RelativeDocumentMoniker": "RecipeManager.Data\\User.cs",
@@ -306,12 +340,11 @@
               "RelativeToolTip": "RecipeManager.Data\\User.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T16:32:30.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T16:32:30.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\UserService.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.BL\\UserService.cs",
@@ -319,12 +352,11 @@
               "RelativeToolTip": "RecipeManager.API.BL\\UserService.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAApwCEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:15:55.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:15:55.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IUserRepository.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contracts\\IUserRepository.cs",
@@ -332,12 +364,11 @@
               "RelativeToolTip": "RecipeManager.API.DataAccess\\Contracts\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:14:18.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:14:18.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "RecipeBookContext.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contexts\\RecipeBookContext.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contexts\\RecipeBookContext.cs",
@@ -345,12 +376,11 @@
               "RelativeToolTip": "RecipeManager.API.DataAccess\\Contexts\\RecipeBookContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:00:33.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:00:33.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\BaseRepository.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\BaseRepository.cs",
@@ -358,12 +388,11 @@
               "RelativeToolTip": "RecipeManager.API.DataAccess\\BaseRepository.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAA1wAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:49:36.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T16:49:36.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.BL\\Interfaces\\IUserService.cs",
@@ -371,12 +400,11 @@
               "RelativeToolTip": "RecipeManager.API.BL\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T14:54:36.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T14:54:36.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.Data\\Comment.cs",
               "RelativeDocumentMoniker": "RecipeManager.Data\\Comment.cs",
@@ -384,12 +412,11 @@
               "RelativeToolTip": "RecipeManager.Data\\Comment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:26:28.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:26:28.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "RecipeManager.API.BL.csproj",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\RecipeManager.API.BL.csproj",
               "RelativeDocumentMoniker": "RecipeManager.API.BL\\RecipeManager.API.BL.csproj",
@@ -397,12 +424,11 @@
               "RelativeToolTip": "RecipeManager.API.BL\\RecipeManager.API.BL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-13T20:26:05.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:26:05.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.Web\\Controllers\\WeatherForecastController.cs",
@@ -415,33 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
-              "RelativeToolTip": "RecipeManager.API.DataAccess\\Contracts\\IBaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:49:47.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Program.cs",
-              "RelativeDocumentMoniker": "RecipeManager.API.Web\\Program.cs",
-              "ToolTip": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\Program.cs",
-              "RelativeToolTip": "RecipeManager.API.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:42:02.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "BaseService.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\BaseService.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.BL\\BaseService.cs",
@@ -449,12 +449,11 @@
               "RelativeToolTip": "RecipeManager.API.BL\\BaseService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:39:14.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T16:39:14.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "IBaseService.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.BL\\Interfaces\\IBaseService.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.BL\\Interfaces\\IBaseService.cs",
@@ -462,12 +461,11 @@
               "RelativeToolTip": "RecipeManager.API.BL\\Interfaces\\IBaseService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:41:17.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T16:41:17.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\Projects\\pet-projects\\recipe-app-backend\\RecipeManager.API\\RecipeManager.API.Web\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "RecipeManager.API.Web\\WeatherForecast.cs",
@@ -475,8 +473,7 @@
               "RelativeToolTip": "RecipeManager.API.Web\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:37:39.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T16:37:39.003Z"
             }
           ]
         },

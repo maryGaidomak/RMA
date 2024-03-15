@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MongoDB.Driver;
 using RecipeManager.API.DataAccess.Contexts;
 using RecipeManager.API.DataAccess.Contracts;
 
@@ -15,8 +16,15 @@ public static class DbConfiguration
 
 		services.AddScoped<IBaseRepository, BaseRepository>();
 		services.AddScoped<IUserRepository, UserRepository>();
-		services.AddScoped<IIngredientsRepository, IngredientsRepository>();
-		services.AddSingleton<MongoDbContext>();
+
+		var connectionString = configuration.GetSection("MongoDB:ConnectionString").Value;
+		var databaseName = configuration.GetSection("MongoDB:DatabaseName").Value;
+		var client = new MongoClient(connectionString);
+		var database = client.GetDatabase(databaseName);
+
+		services.AddSingleton<IMongoDatabase>(database);
+		services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
+		//services.AddSingleton<MongoDbContext>();
 
 		return services;
 	}
